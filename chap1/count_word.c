@@ -16,17 +16,17 @@ nl = nc = nw = 0;
 while ((c = getchar()) != EOF) {
 	++nc;
 	/* increase char count*/
-	if (c == "\n") {
+	if (c == '\n') {
 		++nl;
 		/* change line, nl increase*/
 	}
-	if (c == " " || c == "\t" || c == "\n") {
+	if (c == ' ' || c == '\t' || c == '\n') {
 		/* if new char is space, \t, \n means cursor out of a word we need change state to OUT*/
 		state = OUT;
 	}
 
 
-	else if (state == OUT) {
+	if (state == OUT) {
 		/*change state back to IN, and increase number of word*/
 		state = IN;
 		++nw;
