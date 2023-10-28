@@ -8,3 +8,5 @@ in C Programming language, you might always see ***EOF***, on ***Unix-alike*** O
 `int name[10] to define a int array`
 
 hello, continue on Fedora
+
+add some more
