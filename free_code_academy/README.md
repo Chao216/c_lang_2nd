@@ -5,4 +5,40 @@ format string 	input type
 %f 	            float
 %lf 	        double
 %u 	            unsigned
-%s 	            string 
+%s 	            string
+
+comments in C
+```c
+// this is single line comment
+
+/*
+this is 
+multi line
+comments 
+if you need 
+write more
+*/
+```
+
+get use input with scanf
+
+```c
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(){
+    char name[20];
+    int age;
+
+    printf("what is your name: ");
+    scanf("%s",&name);
+    printf("how old are you: ");
+    scanf("%d",&age);
+    printf("%s is %d years old\n",name,age);
+
+    return 0;
+
+
+
+}
+```
