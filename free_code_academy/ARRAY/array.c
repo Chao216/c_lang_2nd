@@ -8,7 +8,8 @@ int main(){
     container[0] = 10086;
     container[1] = 10010;
     printf("%lf\n",container[0]);
-    
+    char name[20] = "Asahi Mizuno";
+    printf("%s\n",name);
     return 0;
 
 }
