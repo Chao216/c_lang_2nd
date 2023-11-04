@@ -4,16 +4,16 @@
 void sayHi();// you have to declare first before main function
 int main(){
 
-    sayHi();
-    sayHi();
-    sayHi();
-    sayHi();
-    sayHi();
-    sayHi();
+    sayHi("Tony");
+    sayHi("Lucy");
+    sayHi("Brian");
+    sayHi("William");
+    sayHi("Ella");
+    sayHi("Monica");
 
 
 }
 
-void sayHi(){
-    printf("Hi!\n");
+void sayHi(char name[]){
+    printf("Hi! %s\n",name);
 }
