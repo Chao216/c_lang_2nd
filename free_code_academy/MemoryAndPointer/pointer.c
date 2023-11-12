@@ -22,5 +22,10 @@ int main(){
     //*pointer dereference the pointer to the variable
     // *ptr_a  could be seen equevalent to a
 
+    int Month = 11;
+
+    printf("adress of Month \t%p\n",&Month);
+    printf("adress of Month \t%p has a value of \t%d\n",&Month, *&Month);
+
     return 0;
 }
